@@ -260,11 +260,12 @@ anda belum wujud). Sila buat semakan ini:
 - Pratonton dan foto akhir dilukis oleh **fungsi yang sama** pada kanvas, jadi kedudukan, zum,
   potongan dan bingkai adalah sama.
 - Kamera diminta dalam nisbah asli **4:3** (tidak dipaksa menjadi potret).
-- Tingkap foto dikesan secara automatik daripada kawasan lutsinar dalam fail bingkai PNG.
+- Tingkap foto dikesan secara automatik daripada kawasan lutsinar dalam fail bingkai.
+  Bingkai disimpan dalam format **WebP 4K** (kira-kira 1 MB setiap satu) supaya ringan untuk telefon.
   Jika anda mahu tukar bingkai, gantikan fail dalam `frames/` dengan nama yang sama
-  (PNG dengan bahagian tengah lutsinar), dan naikkan `VERSION` dalam `service-worker.js`.
+  (WebP dengan bahagian tengah lutsinar), dan naikkan `VERSION` dalam `service-worker.js`.
 - Kamera depan dipaparkan seperti cermin, dan foto yang disimpan juga seperti cermin
   (sama seperti pratonton).
-- Saiz foto akhir: Potret 1184 × 2000 piksel, Landskap 1824 × 1496 piksel (JPEG kualiti 92%).
+- Saiz foto akhir: Potret 2368 × 4000 piksel, Landskap 3648 × 2992 piksel (JPEG kualiti 92%).
 - Nama fail: `MAPPASTI2026_<warna>_<portrait|landscape>_<tarikh>_<masa>.jpg`
   (mengikut tarikh & masa telefon semasa gambar diambil).

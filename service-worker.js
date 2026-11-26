@@ -1,11 +1,11 @@
-/*
+﻿/*
  * Service worker: simpan fail app supaya boleh dibuka tanpa internet,
  * dan cuba muat naik foto yang tertunggak di latar belakang (Android/Chrome).
  *
  * PENTING: Setiap kali anda mengubah fail app, naikkan nombor VERSION di bawah
  * (contoh v1 -> v2) supaya telefon pengguna mendapat versi baharu.
  */
-const VERSION = "v1";
+const VERSION = "v2";
 const CACHE = "mappasti2026-" + VERSION;
 
 const APP_FILES = [
@@ -21,10 +21,10 @@ const APP_FILES = [
   "icons/apple-touch-icon.png",
   "icons/favicon-32.png",
   "icons/logo-pasti.png",
-  "frames/ungu-potret.png",
-  "frames/ungu-landskap.png",
-  "frames/biru-potret.png",
-  "frames/biru-landskap.png",
+  "frames/ungu-potret.webp",
+  "frames/ungu-landskap.webp",
+  "frames/biru-potret.webp",
+  "frames/biru-landskap.webp",
   "frames/thumbs/ungu-potret.png",
   "frames/thumbs/ungu-landskap.png",
   "frames/thumbs/biru-potret.png",

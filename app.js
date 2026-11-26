@@ -89,7 +89,7 @@
         resolve(info);
       };
       img.onerror = function () { reject(new Error("Bingkai gagal dimuatkan")); };
-      img.src = "frames/" + key + ".png";
+      img.src = "frames/" + key + ".webp";
     });
   }
 
