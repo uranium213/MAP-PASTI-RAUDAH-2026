@@ -1,0 +1,19 @@
+{
+  "name": "MAP PASTI Raudah Az-Zahrah 2026",
+  "short_name": "MAP PASTI 2026",
+  "description": "Photobooth Majlis Anugerah Prestasi PASTI Raudah Az-Zahrah 2026",
+  "lang": "ms",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#16042e",
+  "theme_color": "#2a0a52",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
